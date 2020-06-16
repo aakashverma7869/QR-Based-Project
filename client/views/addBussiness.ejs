@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    
+    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" type="text/css" href="addBussiness.css">
+
+    <link rel="stylesheet" type="text/css" href="signup.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+<body>
+  <div class='nav-class'>
+    <nav>
+      <div class = nav-img>
+    <img class = 'logo' src="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/eb/4e/e6/eb4ee6f0-63e5-fe15-d2f6-c05adcfa68e0/source/512x512bb.jpg" alt="logo">
+  </div>
+  <div class = "nav-heading">
+    <h1>Protected Pay</h1>
+  </div>
+    </nav>
+    
+        <div class="container-login">
+            <div class="card-box1 card-box" id = "card">
+              <div class="heading">
+                <h1>Bussiness Overview</h1>
+                <p>Add details of your bussiness</p>
+              </div>
+
+              <form action="Userdetails" method="POST">
+            
+                <div class = "comb">
+
+                <div class = "radio-class">
+                    <div class = "sub-heading">
+                        <h1>Bussiness Type</h1>
+                        </div>
+                    <input type="radio" id="Register" name="bussiness" value="Register">
+                    <label for="Register">Registered Bussiness</label><br>
+                    <input type="radio" id="unRegister" name="bussiness" value="unRegister">
+                    <label for="unRegister">UnRegister Bussiness</label><br>
+         
+                     
+                </div>
+                
+            <div class = "sub-comb">
+                <div class = "sub-heading" >
+                <h1>Estimate Monthly revenue(INR)</h1>
+                </div>
+                <div class="input-class">
+                  <input type="txt" placeholder="Enter Name" name="revenue"/>
+                </div>
+            </div>
+                <!-- <div class="input-class">
+                  <input type="txt" placeholder="Enter Email" name="email"/>
+                </div> -->
+                <div class = "sub-comb">  
+                <div class = "sub-heading">
+                    <h1>Website</h1>
+                    </div>
+                    <div class="input-class">
+                        
+                      <input type="txt" placeholder="Bussiness Website" name="website"/>
+                    </div>
+                 </div> 
+                 <div class = "sub-comb">  
+                    <div class = "sub-heading">
+                        <h1>Category/SubCategory</h1>
+                        </div>
+                        <div class="input-class">
+                            
+                          <input type="txt" placeholder="Proprietorship" name="category"/>
+                        </div>
+                      </div>
+                      
+                      <div class = "sub-comb"> 
+                        <div class = "sub-heading">
+                            <h1>Billing Label</h1>
+                            </div>
+                            <div class="input-class">
+                                
+                              <input type="txt" placeholder="Company name" name="billing"/>
+                            </div>
+                          </div>  
+</div>
+                            <div class="heading">
+                                <h1>Bussiness Details</h1>
+                                <p>Add details of your bussiness</p>
+                              </div>    
+            <div class = "comb">
+                              
+                                
+                            <div class = "sub-comb">
+                                <div class = "sub-heading">
+                                <h1>Bussiness PAN</h1>
+                                </div>
+                                <div class="input-class">
+                                    
+                                  <input type="txt" placeholder="Bussiness Pan" name="panNo"/>
+                                </div>
+                            </div>
+                            <div class = "sub-comb">  
+                                <div class = "sub-heading">
+                                    <h1>Bussiness Name</h1>
+                                    </div>
+                                    <div class="input-class">
+                                        
+                                      <input type="txt" placeholder="Bussiness name" name = "bussinessName"/>
+                                    </div>
+                                  </div>
+                                <!-- <div class="input-class">
+                                  <input type="txt" placeholder="Enter Email" name="email"/>
+                                </div> -->
+                                <div class = "sub-comb">  
+                                <div class = "sub-heading">
+                                    <h1>Authorised Sign PAN</h1>
+                                    </div>
+                                    <div class="input-class">
+                                        
+                                      <input type="txt" placeholder="Authorised Sign PAN" name="authPan"/>
+                                    </div>
+                                 </div> 
+                         
+                                      
+                                      <div class = "sub-comb"> 
+                                        <div class = "sub-heading">
+                                            <h1>PAN owners name</h1>
+                                            </div>
+                                            <div class="input-class">
+                                                
+                                              <input type="txt" placeholder="PAN owners name" name="panOwner"/>
+                                            </div>
+                                          </div>  
+                                          <div class = "sub-comb"> 
+                                            <div class = "sub-heading">
+                                                <h1>Address</h1>
+                                                </div>
+                                                <div class="input-class">
+                                                    
+                                                  <input type="txt" placeholder="Address" name="address"/>
+                                                </div>
+                                              </div> 
+                                              <div class = "sub-comb"> 
+                                                <div class = "sub-heading">
+                                                    <h1>Pincode</h1>
+                                                    </div>
+                                                    <div class="input-class">
+                                                        
+                                                      <input type="txt" placeholder="Pincode" name="pinCode"/>
+                                                    </div>
+                                                  </div> 
+                                                  <div class = "sub-comb"> 
+                                                    <div class = "sub-heading">
+                                                        <h1>City</h1>
+                                                        </div>
+                                                        <div class="input-class">
+                                                            
+                                                          <input type="txt" placeholder="City" name="city"/>
+                                                        </div>
+                                                      </div> 
+                                                      <div class = "sub-comb"> 
+                                                        <div class = "sub-heading">
+                                                            <h1>State</h1>
+                                                            </div>
+                                                            <div class="input-class">
+                                                                
+                                                              <input type="txt" placeholder="State" name="state"/>
+                                                            </div>
+                                                          </div> 
+                </div>
+                
+
+
+                <div class="button-class">
+                  <button>Sign up<i class="fa fa-arrow-right"></i>
+                  </button>
+                </div>
+      
+      
+              </form>
+            </div>
+          </div>
+
+
+</body>
+</html>

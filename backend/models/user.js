@@ -4,7 +4,7 @@ var userSchema = new mongoose.Schema(
     phone: {
       type: String,
       trim: true,
-      required: true
+    
     },
     password: {
       type: String,
@@ -19,89 +19,62 @@ var userSchema = new mongoose.Schema(
         type: String,
         trim: true
       },
-      gender: {
+      bussiness:{
         type: String,
-        maxlength: 32,
         trim: true
       },
-      date:{
-          type: Date
-      },
-      city: {
+      revenue:{
         type: String,
-        maxlength: 32,
         trim: true
       },
-      state: {
+      website:{
         type: String,
-        maxlength: 32,
         trim: true
       },
-      
-      doctorchec: {
+      category:{
         type: String,
-        maxlength: 32,
         trim: true
       },
-      country: {
+      billing:{
         type: String,
-        maxlength: 32,
         trim: true
       },
-      description:{
+      panNo:{
         type: String,
-        maxlength: 150,
         trim: true
       },
-      speciality:{
+
+      bussinessName:{
         type: String,
-        maxlength: 32,
         trim: true
       },
-      qualification:{
+      authPan:{
         type: String,
-        maxlength: 32,
+        trim: true 
+      },
+      panOwner:{
+        type: String,
+        trim: true 
+      },
+      address:{
+        type: String,
+        trim: true 
+      },
+      pinCode:{
+        type: String,
+        trim: true 
+      },
+      city:{
+        type: String,
         trim: true
       },
-      treatmentList:{
+      state:{
         type: String,
-        maxlength: 32,
         trim: true
-      },
-      location:{
-        type: String,
-        maxlength: 32,
-        trim: true
-      },
-      hospital:{
-        type: String,
-        maxlength: 32,
-        trim: true
-      },
-      achivements:{
-        type: String,
-        maxlength: 32,
-        trim: true
-      },
-      awards:{
-        type: String,
-        maxlength: 32,
-        trim: true
-      },
-      experience:{
-        type: String,
-        maxlength: 32,
-        trim: true
-      },
-      fees:{
-        type: String,
-        maxlength: 32,
-        trim: true
-      },
-      photo: {
-        data: Buffer,
-        contentType: String
       }
+
+
+
 
   },
   { timestamps: true }

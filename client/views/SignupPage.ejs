@@ -11,39 +11,36 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <div class='nav-class'>
-        <nav>
-        <img class = 'logo' src="https://s3.ap-south-1.amazonaws.com/appdev.konfinity.com/css/tasks/Logo.jpg" alt="logo">
-        <div class = 'nav-classContent'>
-        <p onclick="window.location.href = 'doctor.html'">Doctors</p>
-        <p onclick="window.location.href = 'hospital.html'">Hospitals</p>
-        <p>Treatment</p>
-        <p>Other Services</p>
-        <p>About</p>
-        </div>
-        <div class = 'nav-classButton'>
-        <button class='nav-button-white'>Login / Sign Up</button>
-        <button class='nav-button'>Get a Quote</button>
-        </div>
-        <i class="fas fa-bars" onclick="ALERTFunction()"></i>
-        </nav>
-        </div>
+  <div class='nav-class'>
+    <nav>
+      <div class = nav-img>
+    <img class = 'logo' src="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/eb/4e/e6/eb4ee6f0-63e5-fe15-d2f6-c05adcfa68e0/source/512x512bb.jpg" alt="logo">
+  </div>
+  <div class = "nav-heading">
+    <h1>Protected Pay</h1>
+  </div>
+    </nav>
+    
         <div class="container-login">
             <div class="card-box">
               <div class="heading">
-                <h1>Sign Up</h1>
+                <h1>Registered</h1>
+                <p>Create an account</p>
               </div>
               <form action="signUpUser" method="POST">
                 <div class="input-class">
                   <input type="txt" placeholder="Enter Name" name="name"/>
                 </div>
-                <div class="input-class">
+                <!-- <div class="input-class">
                   <input type="txt" placeholder="Enter Email" name="email"/>
-                </div>
+                </div> -->
                  <div class="input-class">
-                  <input type="password" placeholder="Enter password" name="password"/>
+                  <input type="password" placeholder="Enter password" name="password1"/>
                 </div>
                 <div class="input-class">
+                  <input type="password" placeholder="Enter password" name="password2"/>
+                </div>
+                <!-- <div class="input-class">
                     <input type="txt" placeholder="Select your gender" name="gender"/>
                         <div class="dropdown">
                           <select>
@@ -54,10 +51,10 @@
                           </select>
                     </div>
              
-                  </div>
+                  </div> -->
 
                   
-                <div class="input-class" >
+                <!-- <div class="input-class" >
                     <input type="date" placeholder="dd/mm/yyyy" name="date"/>
                   </div>
 
@@ -91,23 +88,17 @@
                   <div class = "checkbox-class">
                   <input type="checkbox" id="vehicle1" name="doctorchec" value="doctor">
                   <label for="vehicle1"> Are you doctor?</label><br>
-                  </div>
+                  </div> -->
                 <div class="button-class">
                   <button>Sign up<i class="fa fa-arrow-right"></i>
                   </button>
                 </div>
       
-                <div class="end-class">
-                  <p>Already registered ?</p>
-                  <a href="/">Sign In</a>
-                </div>
+      
               </form>
             </div>
           </div>
-      
-          <div class="footer">
-            <p>All rights reserved. &copy; Tvastra 2020</p>
-          </div>
+
 
 </body>
 </html>

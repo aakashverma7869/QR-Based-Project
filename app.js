@@ -1,4 +1,5 @@
 const express = require("express");
+var nodemailer = require("nodemailer");
 const app = express();
 var session = require('express-session')
 //const Nexmo = require('nexmo');
